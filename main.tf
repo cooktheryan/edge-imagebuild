@@ -1,5 +1,4 @@
 provider "aws" {
-  project     = "my-project-id"
   region      = "us-east-1"
 }
 // Generate Private and Public Key and upload to aws
