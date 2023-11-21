@@ -1,3 +1,7 @@
+provider "aws" {
+  project     = "my-project-id"
+  region      = "us-east-1"
+}
 // Generate Private and Public Key and upload to aws
  resource "tls_private_key" "terrafrom_generated_private_key" {
    algorithm = "RSA"
